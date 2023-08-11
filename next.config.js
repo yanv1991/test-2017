@@ -9,6 +9,9 @@ const nextConfig = {
       }
     };
   },
+  transpilePackages: [
+    'next'
+  ],
 }
 
 module.exports = nextConfig
